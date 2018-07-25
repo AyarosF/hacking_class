@@ -1,24 +1,23 @@
-# README
+# The Hacking Class - projet THP 25 juillet 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+Pour créer la BDD, faire :
+- `bundle install`
+- `rails db:migrate`
+- `rails db:seed`
 
-* Ruby version
+## Le contenu
 
-* System dependencies
+A été créée une base de données, avec une application rails, en utilisant la gem ActiveRecord.
 
-* Configuration
+### Le projet
 
-* Database creation
+Un site d'éducation en ligne
 
-* Database initialization
+- Les élèves peuvent s'inscrire à un seul cours
+- Un cours peut avoir plusieurs élèves
 
-* How to run the test suite
+## La team
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
